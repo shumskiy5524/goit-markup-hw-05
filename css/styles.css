@@ -526,3 +526,16 @@ margin-bottom: 16px;
 .backdrop:not(is-open).modal{
   transform: translate(-50%, -100%);
 }
+.box-modal{
+border-radius: 4px;
+width: 360px;
+height: 336px;
+}
+.textarea{
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
+}
