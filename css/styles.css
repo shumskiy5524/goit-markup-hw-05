@@ -468,6 +468,7 @@ background-color: #31d0aa;
       color: #ffffff;
   }
   .form-label{
+    display: flex; 
     gap 24px;
   }
   .form-input-footer{
