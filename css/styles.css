@@ -707,6 +707,14 @@ color: rgba(46, 47, 66, 0.4);
       justify-content: center; 
       fill: transparent;
 }
+.input:checked + label >span{
+background-color: #404bbf;
+border: none; 
+fill: #F4F4FD;
+}
+.modal-check-link{
+  color: #4d5ae5;
+}
 .order-button{
   display: block; 
   min-width: 169px ;
