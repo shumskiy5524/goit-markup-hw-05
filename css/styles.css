@@ -693,7 +693,7 @@ color: rgba(46, 47, 66, 0.4);
 .modal-field{
   margin-bottom: 24px;
 }
-.modal-check-policy{
+.modal-check-label{
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em; 
