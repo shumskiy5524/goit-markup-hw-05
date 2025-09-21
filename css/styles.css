@@ -624,16 +624,15 @@ fill: #4D5AE5;
   border-color: #4D5AE5; 
   fill: #4D5AE5; 
 }
-.input:focus>svg{
-  fill: #4D5AE5;
-}
 .form-icon{
    position: absolute;
     left: 16px;
     top: 50%;
      transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
+}
+.input:focus.form-icon{
+  fill: #4D5AE5;
 }
 .modal-textarea{
   font-family: "Roboto", sans-serif;
@@ -655,6 +654,9 @@ height: 336px;
 }
 .form-field{
   margin-bottom: 8px;
+}
+.form-field-comment{
+  margin-bottom: 16px;
 }
 .form-label{
   font-size: 12px;
