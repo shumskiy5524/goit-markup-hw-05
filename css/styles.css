@@ -710,7 +710,7 @@ color: rgba(46, 47, 66, 0.4);
       justify-content: center; 
       fill: transparent;
 }
-.modal-check-box:checked{
+.modal-check:checked + .modal-check-label>span{
 background-color: #404bbf;
 border: none; 
 fill: #F4F4FD;
