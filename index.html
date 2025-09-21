@@ -395,7 +395,7 @@ rel="stylesheet">
 
 
 
-<div class="backdrop " data-modal>
+<div class="backdrop is-open" data-modal>
 <div class="modal">
 <button class="modal-close-btn" type="button" data-modal-close><svg class="icon-btn" width="8" height="8">
   <use href="./images/icons.svg#icon-close"></use>
@@ -426,7 +426,6 @@ id="user-name" type="text"/>
 </div>
 <div class="form-field">
 <label class="form-label" for="user-name">Email</label>
-</div>
 <div class="input-wrapper">
   <input class="form-input"
   name="input-name"
@@ -435,14 +434,17 @@ id="user-name" type="text"/>
     <use href="./images/icons.svg#icon-email"></use>
   </svg>
 </div>
-<div class="textarea">
-  <label class="form-label" for="user-comment">Comment</label>
 </div>
-<div class="textarea">
-<textarea id="user-comment" name="user-comment"
+
+<div class="form-field">
+  <label class="form-label" for="user-comment">Comment</label>
+  <div class="input-wrapper"></div>
+  <textarea id="user-comment" name="user-comment"
 placeholder="Text input">
 </textarea>
 </div>
+
+
   <div class="modal-field">
     <input type="checkbox"
     name="user-policy"
